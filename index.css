@@ -33,14 +33,15 @@
     width: 70%;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    bottom: 24px;
+     bottom: 24px; 
 }
 
 #cart{
-    width: 48px;
+    width: 40px;
     position: relative;
     bottom: 8px;
+    
+    margin-right: 25px;
 }
 #logo-text{
     position: relative;
@@ -74,7 +75,7 @@
 }
 
 /* hero title */
-#hero-left > :first-child{
+#shinewords > :first-child{
     font-weight: bold;
     font-size: 48px;
     line-height: 48px;
@@ -83,7 +84,7 @@
 }
 
 /* hero body */
-#hero-left > :nth-child(2){
+#shinewords > :nth-child(2){
     font-size: 24px;
     width: 600PX;
 }
@@ -104,24 +105,33 @@
     background-color: rgba(250,149,41, .7);
 }
 
-/* hero inner */
-.hero-inner{
+/* sectionone continues*/
+.shine{
     display: flex;
     flex-direction: row;
 }
 
-/* hero right */
-#hero-right{
+
+#shineimage{
     position: relative;
 }
 
-/* burger image */
-#hero-right img{
+/* burger  1 image */
+#shineimage img{
     width: 50%;
     position: relative;
     left: 112px;
     top: 48px;
 }
+.color_yellow  
+ {
+    background: linear-gradient(
+      286deg, 
+      transparent 0%,
+      rgb(255, 187, 0) 0%,
+      rgb(255, 187, 0) 60%,
+      transparent 60%
+      )
 
 /* benefits section */
 .benefits-section{
