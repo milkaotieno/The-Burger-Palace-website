@@ -426,3 +426,136 @@
     bottom: 200px;
     z-index: 1;
 }
+
+
+/* download app section */
+.download-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-color: #F5B426;
+}
+
+/* app section left */
+#app-section-left{
+    width: 50%;
+    padding-left: 96px;
+}
+
+#app-section-left p {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.appstore img{
+    width: 180px;
+    margin-top: 132px;
+}
+
+.appstore :first-child{
+    margin-left: 36px;
+    margin-right: 12px;
+}
+
+/* app section right */
+#app-section-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app-section-right img{
+    width: 75%;
+}
+
+/* footer */
+.footer{
+    /* TODO */
+}
+
+/* footer nav */
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7FDF6;
+    padding-top: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+    align-items: center;
+}
+
+/* footer logo */
+#footer-logo-parent{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav :first-child{
+    position: relative;
+}
+
+/* sitemap */
+.footer-nav :nth-child(2) p{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#sitemap{
+    list-style: none;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* subscriber form */
+.footer-nav :last-child p{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#subscribe-form input, button{
+    height: 65px;
+    font-size: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-top: 36px;
+}
+
+#subscribe-form input {
+    border-radius: 8px 0 0 8px;
+    border: solid 1px #000;
+    width: 60%;
+    border-right: none;
+}
+
+#subscribe-form input ::placeholder{
+    color: black !important;
+}
+
+#subscribe-form button{
+    border: none;
+    color: white;
+    width: 40%;
+    background-color: #F5B426;
+}
+
+#subscribe-form{
+    display: flex;
+}
+
+/* copyright container */
+.copyright-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding-top: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+}
