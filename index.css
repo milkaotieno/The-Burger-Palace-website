@@ -1,0 +1,17 @@
+* default styles */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* background  
+.hero-section{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 48px;
+} */
