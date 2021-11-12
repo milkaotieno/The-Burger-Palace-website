@@ -123,3 +123,95 @@
     top: 48px;
 }
 
+/* benefits section */
+.benefits-section{
+    padding-top: 240px;
+    padding-bottom: 240px;
+    padding-left: 36px;
+    padding-right: 36px;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    background-color: #F7FDF6;
+    position: relative;
+}
+
+
+/* card */
+.card{
+    border: solid 1px #5D161E;
+    padding: 24px;
+    width: 30%;
+    border-radius: 18px;
+    display: flex;
+    height: 75%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* card title */
+.card :nth-child(2){
+    font-size: 36px;
+    color: #5D161E;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* middle card */
+#middle-card{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    bottom: 42px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+/* bell */
+#bell{
+    width: 72px;
+    margin: 0 auto;
+}
+
+/* delivery truck */
+#delivery-truck{
+    width: 72px;
+    margin: 0 auto;
+    position: relative;
+    top: 24px;
+    margin-bottom: 24px;
+}
+
+/* burger and coke */
+#burger-coke{
+    width: 72px;
+    margin: 0 auto;
+}
+
+/* menu section */
+.menu-section{
+    text-align: center;
+    padding-top: 140px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 48px;
+}
+
+/* menu title */
+#menu-title{
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+#menu-title-end{
+    color: #FFC12B;
+}
+
+/* menu title container */
+#menu-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
