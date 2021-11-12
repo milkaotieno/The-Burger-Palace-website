@@ -73,3 +73,31 @@
     width: 75%;
 }
 
+/* hero title */
+#hero-left > :first-child{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    margin-top: 140px;
+    margin-bottom: 52px;
+}
+
+/* hero body */
+#hero-left > :nth-child(2){
+    font-size: 24px;
+    width: 600PX;
+}
+
+/* order now */
+#order-now-button{
+    background-color: #FA9529;
+    margin-top: 120px;
+    margin-bottom: 96px;
+    width: 180px;
+    height: 65px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px 50px 0px 50px;
+}
+
