@@ -5,14 +5,16 @@
 The Burger Palace is a simple landing page of a restaurants website that has information on what the restaurant offers and can deliver to burger lovers.
 # set up instructions
 ## Requirements
-Either a computer, phone ,or tablet.
-An access to internet
+##Either a computer, phone ,or tablet.
+
+##An access to internet
 
 ## Installation
 Click on the link below to view the website:
 
 ## Technology used 
 HTML - used to build the structure of the website
+
 Css -used to style the pages
 
 Ensure you have liveserver installed in vscode or the equivalent installed in atom editor.
@@ -22,12 +24,13 @@ There are no known bugs reported.
 
 ## Support and contact details
 Do not hesitate reaching us via:
-Phone: 254717535027
-Email:milka.otieno@student.moringaschool.com
+#Phone: 254717535027
+
+#Email:milka.otieno@student.moringaschool.com
 
 
 ## Licence 
-MThe MIT License ()
+The MIT License ()
 
 Copyright (c) [11/2021] [Otieno Milka]
 

@@ -1,12 +1,11 @@
-* default styles */
-*{
+{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-/* background  
+/* background */  
 .hero-section{
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
@@ -14,7 +13,8 @@
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 48px;
-} */
+}
+
 /* header */
 .header{
     display: flex;
@@ -27,22 +27,7 @@
 #logo{
     position: relative;
 }
-/* nav menu */
-#nav-menu{
-    display: flex;
-    width: 70%;
-    justify-content: space-between;
-    align-items: center;
-     bottom: 24px; 
-}
 
-#cart{
-    width: 40px;
-    position: relative;
-    bottom: 8px;
-    
-    margin-right: 25px;
-}
 #logo-text{
     position: relative;
     left: 90px;
@@ -56,6 +41,23 @@
     color: #FFC12B;
     font-family: 'Oleo Script Swash Caps', cursive;
 }
+
+/* nav menu */
+#nav-menu{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 24px;
+}
+
+#cart{
+    width: 48px;
+    position: relative;
+    bottom: 8px;
+}
+
 #menu{
     display: flex;
     gap: 72px;
@@ -75,7 +77,7 @@
 }
 
 /* hero title */
-#shinewords > :first-child{
+#hero-left > :first-child{
     font-weight: bold;
     font-size: 48px;
     line-height: 48px;
@@ -84,7 +86,7 @@
 }
 
 /* hero body */
-#shinewords > :nth-child(2){
+#hero-left > :nth-child(2){
     font-size: 24px;
     width: 600PX;
 }
@@ -101,37 +103,29 @@
     border: none;
     border-radius: 50px 50px 0px 50px;
 }
+
 #order-now-button:hover{
     background-color: rgba(250,149,41, .7);
 }
 
-/* sectionone continues*/
-.shine{
+/* hero inner */
+.hero-inner{
     display: flex;
     flex-direction: row;
 }
 
-
-#shineimage{
+/* hero right */
+#hero-right{
     position: relative;
 }
 
-/* burger  1 image */
-#shineimage img{
+/* burger image */
+#hero-right img{
     width: 50%;
     position: relative;
     left: 112px;
     top: 48px;
 }
-.color_yellow  
- {
-    background: linear-gradient(
-      286deg, 
-      transparent 0%,
-      rgb(255, 187, 0) 0%,
-      rgb(255, 187, 0) 60%,
-      transparent 60%
-      )
 
 /* benefits section */
 .benefits-section{
@@ -225,6 +219,7 @@
     align-items: center;
     flex-direction: column;
 }
+
 /* line */
 #line{
     background-color: #FA9529;
@@ -323,6 +318,7 @@
     font-size: 30px;
     font-weight: 400;
 }
+
 #minus, #add{
     margin-top: 12px;
     font-size: 24px;
@@ -436,7 +432,6 @@
     bottom: 200px;
     z-index: 1;
 }
-
 
 /* download app section */
 .download-app{
