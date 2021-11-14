@@ -1,5 +1,5 @@
 body {
-    /* box-sizing: border-box; */
+ box-sizing: border-box; 
     display: inline;;
     margin: 0;
     padding: 0;
@@ -8,22 +8,26 @@ body {
 
 /* background */  
 .color_yellow {
-    background: linear-gradient(
-      286deg, 
+   
+    background:linear-gradie(
+      320deg, 
       transparent 0%,
-      rgb(255, 187, 0) 0%,
-      rgb(255, 187, 0) 60%,
+      rgb(255, 185, 0) 0%,
+      rgb(255, 185, 0) 65%,
       transparent 60%
+      
+    
+      
       )
    }
+   
 .sectionone{
-    /* background-image: url("../images/background.png"); 
-    background-repeat: no-repeat;
-    background-size: cover;*/
+   
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 48px;
     margin-top: 0px;
+    
 }
 
 /* head part        */
@@ -34,6 +38,16 @@ body {
     height: 20px;
     margin-top: 0;
     
+}
+#menu-title::after {
+    content: "";
+    display: block;
+    height: 0.5rem;
+    width: 6rem;
+    background-color:#FA9529;
+    margin: 1.2rem auto;
+    margin-top: 0em;
+    margin-bottom: 0em;
 }
 
 /* logo */
@@ -79,6 +93,7 @@ ul {
 #cart{
     width: 48px;
      bottom: 5px;
+     
 }
 
 .navlist{
@@ -94,7 +109,7 @@ ul {
 
 #home{
     background-color: #FF6D21;
-    height: 7px;
+    height: 5px;
     margin-top: 0px;
     width: 60%;
 }
@@ -113,6 +128,7 @@ ul {
     font-size: 24px;
     width: 600PX;
 }
+
 
 /* order now */
 #order-now-button{
@@ -142,7 +158,7 @@ ul {
 .mainburger img{
     width: 400px;
     height: 700px;
-    
+     
     margin-left: 10px;
     margin-top: 70px;
 }
@@ -232,13 +248,8 @@ ul {
 }
 
 
-#line{
-    column-gap: 0px;
-    
-    background-color: #FA9529;
-    width: 100px;
-    height: 12px;
-}
+
+
 
 .menus {
     display: flex;
@@ -300,6 +311,7 @@ ul {
 /* cart  */
 #pay :nth-child(2){
     background-color: #E1EBE6;
+    
     width: 30%;
     border-radius: 20px;
     display: flex;
@@ -375,6 +387,7 @@ ul {
 
 .deckerimage{
     width: 50%;
+    height: 200px;
 }
 
 
@@ -456,6 +469,11 @@ ul {
     bottom: 200px;
     z-index: 1;
 }
+.sectionone{
+    background-image: url("../images/background.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* download app section */
 .downloadapp{
@@ -468,6 +486,11 @@ ul {
 }
 
 /* app section  */
+
+.downloadapp {
+
+    background-color: #F6B400;
+}
 .appwords{
     width: 50%;
     padding-left: 96px;
