@@ -1,4 +1,4 @@
-{
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,8 +6,8 @@
 }
 
 /* background */  
-.hero-section{
-    background-image: url("../images/background.png");
+.sectionone{
+    /* background-image: url("../images/background.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 70px;
@@ -15,22 +15,25 @@
     padding-top: 48px;
 }
 
-/* header */
-.header{
+/* head part        */
+.head{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    margin-top: 0;
+    
 }
 
 /* logo */
 #logo{
-    position: relative;
+    display: flex;
+    margin: 0;
+    
 }
 
 #logo-text{
-    position: relative;
     left: 90px;
+    margin-left: 0%;
     bottom: 72px;
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 42px;
@@ -338,7 +341,7 @@
     font-size: 24px;
 }
 
-/* slider */
+/* slide section*/
 .slider{
     background-color: #F7FDF6;
     padding-top: 240px;
@@ -349,18 +352,18 @@
     flex-direction: row;
 }
 
-/* slider left width */
+
 #slider-left{
     width: 50%;
     margin-left: 60px;
 }
 
-/* slider right width */
+
 #slider-right{
     width: 50%;
 }
 
-/* slider left */
+
 #slider-left :first-child{
     font-size: 60px;
     font-weight: 900;
@@ -409,7 +412,7 @@
     background-color: #FF6D21;
 }
 
-/* slider right */
+/* slide */
 #slider-right{
     position: relative;
 }
@@ -443,7 +446,7 @@
     background-color: #F5B426;
 }
 
-/* app section left */
+/* app section  */
 #app-section-left{
     width: 50%;
     padding-left: 96px;
@@ -464,7 +467,7 @@
     margin-right: 12px;
 }
 
-/* app section right */
+
 #app-section-right {
     width: 50%;
     display: flex;
@@ -476,10 +479,7 @@
     width: 75%;
 }
 
-/* footer */
-.footer{
-    /* TODO */
-}
+
 
 /* footer nav */
 .footer-nav{
@@ -519,7 +519,7 @@
     gap: 24px;
 }
 
-/* subscriber form */
+/* subscribe section*/
 .footer-nav :last-child p{
     font-size: 32px;
     font-weight: bold;
@@ -555,7 +555,7 @@
     display: flex;
 }
 
-/* copyright container */
+/* copyright section */
 .copyright-container{
     display: flex;
     justify-content: space-between;
