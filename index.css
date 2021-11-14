@@ -1,11 +1,21 @@
 body {
     /* box-sizing: border-box; */
+    display: inline;;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 /* background */  
+.color_yellow {
+    background: linear-gradient(
+      286deg, 
+      transparent 0%,
+      rgb(255, 187, 0) 0%,
+      rgb(255, 187, 0) 60%,
+      transparent 60%
+      )
+   }
 .sectionone{
     /* background-image: url("../images/background.png"); 
     background-repeat: no-repeat;
@@ -196,10 +206,10 @@ ul {
 /* menu section */
 .menu{
     text-align: center;
-    padding-top: 140px;
-    padding-left: 36px;
-    padding-right: 36px;
-    padding-bottom: 48px;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
 }
 
 /* menu title */
@@ -229,26 +239,29 @@ ul {
     width: 100px;
     height: 12px;
 }
-.firstmenu {
-    display: flex;
-}
 
-.secondmenu {
+.menus {
     display: flex;
+    
+    justify-content: center;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    gap: 15px;
 }
 
 /* the 6 menu list */
 .menulist{
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
-/* menu card */
+
 .doubleburger{
     border-radius: 75px;
-    width: 30%;
     height: fit-content;
     box-shadow: 0px 2px 4px 0px #888888;
     padding: 24px;
