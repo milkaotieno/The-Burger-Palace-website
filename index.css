@@ -56,6 +56,16 @@ body {
      
 }
 
+ul {
+    display: flex;
+    display: inline;
+    margin-left: 150px;
+    gap: 15px;
+}
+
+    
+
+
 #cart{
     width: 48px;
      bottom: 5px;
