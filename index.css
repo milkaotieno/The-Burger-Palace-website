@@ -6,21 +6,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* background */  
-.color_yellow {
-   
-    background:linear-gradie(
-      320deg, 
-      transparent 0%,
-      rgb(255, 185, 0) 0%,
-      rgb(255, 185, 0) 65%,
-      transparent 60%
-      
-    
-      
-      )
-   }
-   
 .sectionone{
    
     padding-left: 70px;
@@ -39,6 +24,21 @@ body {
     margin-top: 0;
     
 }
+/* background 
+.color_yellow {
+   
+    background:linear-gradie(
+      320deg, 
+      transparent 0%,
+      rgb(255, 185, 0) 0%,
+      rgb(255, 185, 0) 65%,
+      transparent 60%
+      
+    
+      
+      )
+   }
+   */
 #menu-title::after {
     content: "";
     display: block;
