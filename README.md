@@ -10,7 +10,7 @@ The Burger Palace is a simple landing page of a restaurants website that has inf
 ##An access to internet
 
 ## Installation
-Click on the link below to view the website:
+Click on the link below to view the website:https://milkaotieno.github.io/The-Burger-Palace-website/
 
 ## Technology used 
 HTML - used to build the structure of the website
