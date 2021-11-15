@@ -13,9 +13,9 @@ body {
     padding-right: 70px;
     padding-top: 48px;
     margin-top: 0px;
-    background-image: url("../images/background.png");
+    /* background-image: url("../images/background.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 /* head part        */
@@ -28,11 +28,11 @@ body {
 
 }
 
-/* background 
+/* background */
 .color_yellow {
    
-    background:linear-gradie(
-      320deg, 
+    background:linear-gradient(
+      282deg, 
       transparent 0%,
       rgb(255, 185, 0) 0%,
       rgb(255, 185, 0) 65%,
@@ -42,7 +42,7 @@ body {
       
       )
    }
-   */
+   
 #menu-title::after {
     content: "";
     display: block;
